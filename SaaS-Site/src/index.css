@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz@9..144&family=DM+Sans:wght@400;500;700&family=Montserrat:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700;800&family=Unbounded:wght@500;700&family=JetBrains+Mono:wght@400;500;700&display=swap');
 @import "tailwindcss";
 
 @theme {
@@ -13,12 +13,22 @@
   --color-green: #1A7A4A;
   --color-green-light: #11301f;
   --color-green-mid: #35ae6b;
-  --primary-mont: 'Montserrat', serif;
+  --font-display: "Unbounded", "DM Sans", sans-serif;
+  --font-body: "DM Sans", sans-serif;
+  --font-tech: "JetBrains Mono", "SFMono-Regular", Consolas, monospace;
 }
 
 body {
   scroll-behavior: smooth;
   background-color: var(--color-bg);
+  background-image: radial-gradient(circle at 20% 0%, #1b2c47 0%, rgba(10, 16, 26, 0) 45%);
   color: var(--color-text);
-  font-family: var(--primary-mont);
+  font-family: var(--font-body);
+
+  background-image: 
+    linear-gradient(rgba(255,255,255,.02) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255,255,255,.02) 1px, transparent 1px),
+    repeating-linear-gradient(45deg, transparent, transparent 100px, rgba(255,255,255,.01) 100px, rgba(255,255,255,.01) 101px);
+  background-size: 60px 60px, 60px 60px, 141.42px 141.42px;
+
 }
