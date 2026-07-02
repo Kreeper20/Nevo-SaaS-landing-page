@@ -1,3 +1,4 @@
+import logo from "../../assets/NEVO-tsp.png"
 
 export const Footer = () => {
     return (
@@ -5,8 +6,8 @@ export const Footer = () => {
             <footer className="mx-auto mt-20 border-t border-border bg-surface px-6 py-8">
                 <div className="mx-auto max-w-6xl md:flex md:items-start md:justify-between">
                     <div>
-                        <h1 className="text-xl font-bold text-white">Nevo</h1>
-                        <p className="mt-2 text-xs text-muted">Turn customer feedback into product <br /> decisions — automatically. Built for <br /> modern product teams.</p>
+                        <img src={logo} alt="Logo" className="h-6  w-auto" />
+                        <p className="mt-2 text-xs text-muted">Turn customer feedback into product <br /> decisions automatically. Built for <br /> modern product teams.</p>
                     </div>
 
                     <nav className="mt-6 flex flex-col gap-12 md:mt-0 md:flex-row md:gap-20">

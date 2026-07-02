@@ -25,7 +25,7 @@ export const Works = () => {
 
                     <aside id="integrations" className="space-y-4 lg:mt-2">
                         <WorkStep tag={1} title="Connect your channels" description="Plug in Intercom, Zendesk, Slack, email, App Store reviews, and more. Nevo reads every message across all sources in real time." />
-                        <WorkStep tag={2} title="AI finds the patterns" description="Our model clusters feedback by theme, tracks volume trends, and scores each topic by impact - automatically, every hour." />
+                        <WorkStep tag={2} title="AI finds the patterns" description="Our model clusters feedback by theme, tracks volume trends, and scores each topic by impact automatically, every hour." />
                         <WorkStep tag={3} title="Ship what matters" description="Nevo pushes prioritised insights directly to Linear, Jira, or Notion. Your team always knows what to build next - and why." />
                     </aside>
                 </div>
