@@ -1,6 +1,6 @@
-# Nevo — AI Feedback Intelligence
+# Nevo - AI Feedback Intelligence
 
-Nevo is an AI-powered feedback intelligence platform that helps teams collect, analyse, and act on user feedback — turning raw responses into actionable insights automatically.
+Nevo is an AI-powered feedback intelligence platform that helps teams collect, analyse, and act on user feedback turning raw responses into actionable insights automatically.
 
 This is a front-end concept and landing page built as a portfolio project.
 
@@ -22,7 +22,7 @@ This is a front-end concept and landing page built as a portfolio project.
 
 ## Running Locally
 ```bash
-git clone https://github.com/Kreeper20/nevo
+git clone https://github.com/Kreeper20/Nevo-SaaS-landing-page
 cd nevo
 npm install
 npm run dev
