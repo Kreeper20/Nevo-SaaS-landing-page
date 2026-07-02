@@ -29,4 +29,4 @@ npm run dev
 ```
 
 ## Notes
-This is a portfolio/concept project — not a live product. Built to demonstrate UI design, component architecture, and design system implementation in React + Tailwind.
+This is a portfolio/concept project not a live product. Built to demonstrate UI design, component architecture, and design system implementation in React + Tailwind.
