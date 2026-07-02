@@ -4,7 +4,6 @@ export const Hero = () => {
         <>
             <section className="ml-3 mr-3 lg:mx-32 2xl:mx-80 md:mx-20 md:mt-32 mt-6">
                 <div className="grid md:grid-cols-2 gap-8 items-start">
-                    {/* Left side - Hero text */}
                     <section>
                         <div className="font-tech mt-12 mb-6 flex w-max items-center gap-2 rounded-full border border-green-900/40 bg-green-light px-3 py-1.5 text-xs uppercase tracking-wide text-green-mid">
                             <span className="w-2 h-2 bg-green-600 rounded-full"></span>
@@ -27,12 +26,10 @@ export const Hero = () => {
                         </div>
                     </section>
 
-                    {/* Right side - Recent feedback */}
                     <aside className="md:block md:mt-16">
                         <article className="rounded-2xl border border-border/85 bg-surface p-6 shadow-[0_18px_45px_rgba(0,0,0,0.38)]">
                             <h3 className="font-display mb-5 text-sm font-semibold tracking-wide text-text">Recent feedback</h3>
 
-                            {/* Feedback items */}
                             <ul className="space-y-3 mb-3">
                                 <li className="flex gap-2.5 border-b border-border py-3 first:pt-0 last:border-b-0">
                                     <div className="w-7 h-7 rounded-full shrink-0 flex items-center justify-center text-xs font-bold text-white bg-blue-600">A</div>
@@ -59,7 +56,6 @@ export const Hero = () => {
                                 </li>
                             </ul>
 
-                            {/* Insight box */}
                             <div className="rounded-lg border border-slate-700/80 bg-black/85 p-5 text-white">
                                 <h4 className="font-tech mb-2 text-xs font-semibold uppercase tracking-wider text-muted">💡 NEVO INSIGHT</h4>
                                 <p className="mb-3 text-sm font-light leading-relaxed text-slate-300">"Search performance" is mentioned in 3 recent tickets. This is your highest-priority issue.</p>
@@ -73,21 +69,21 @@ export const Hero = () => {
                 </div>
             </section>
 
-             <div className="mt-12 w-screen items-center justify-center border-t border-b border-border/90 bg-surface/35 p-4 px-36">
+            <div className="mt-12 w-screen items-center justify-center border-t border-b border-border/90 bg-surface/35 p-4 px-36">
 
                 <div className=" text-center justify-center text-xs md:justify-start flex items-center md:px-23 lg:px-32 gap-6">
 
-                <h3 className="font-tech text-muted">USED BY</h3>
-                <span className=" text-muted">|</span>
-                <span className="font-tech text-muted">STRIPE</span>
-                <span className="font-tech text-muted">LOOM</span>
-                <span className="font-tech text-muted">NOTION</span>
-                <span className="font-tech text-muted">VERCEL</span>
+                    <h3 className="font-tech text-muted">USED BY</h3>
+                    <span className=" text-muted">|</span>
+                    <span className="font-tech text-muted">STRIPE</span>
+                    <span className="font-tech text-muted">LOOM</span>
+                    <span className="font-tech text-muted">NOTION</span>
+                    <span className="font-tech text-muted">VERCEL</span>
                 </div>
 
             </div>
 
-                     
+
         </>
     )
 }

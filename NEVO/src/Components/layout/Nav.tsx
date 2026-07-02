@@ -16,7 +16,7 @@ export const Nav = () => {
                         <a className="transition-colors duration-300 hover:text-text" href="#pricing">Pricing</a>
                     </li>
                     <li>
-                        <a className="transition-colors duration-300 hover:text-text" href="#interogations">Integrations</a>
+                        <a className="transition-colors duration-300 hover:text-text" href="#integrations">Integrations</a>
                     </li>
                 </ul>
 

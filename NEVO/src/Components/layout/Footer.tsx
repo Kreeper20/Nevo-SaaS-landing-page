@@ -16,7 +16,7 @@ export const Footer = () => {
                                 <a className="transition-colors duration-300 hover:text-text" href="#how-it-works">How it Works</a>
                             </li>
                             <li>
-                                <a className="transition-colors duration-300 hover:text-text" href="#interogations">Integrations</a>
+                                <a className="transition-colors duration-300 hover:text-text" href="#integrations">Integrations</a>
                             </li>
                             <li>
                                 <a className="transition-colors duration-300 hover:text-text" href="#features">Features</a>
@@ -38,7 +38,7 @@ export const Footer = () => {
                                 <a className="transition-colors duration-300 hover:text-text" href="#features">Security</a>
                             </li>
                             <li>
-                                <a className="transition-colors duration-300 hover:text-text" href="#interogations">Cookies</a>
+                                <a className="transition-colors duration-300 hover:text-text" href="#integrations">Cookies</a>
                             </li>
                         </ul>
 
@@ -54,7 +54,7 @@ export const Footer = () => {
                                 <a className="transition-colors duration-300 hover:text-text" href="#features">Contact Us</a>
                             </li>
                             <li>
-                                <a className="transition-colors duration-300 hover:text-text" href="#interogations">Blog</a>
+                                <a className="transition-colors duration-300 hover:text-text" href="#integrations">Blog</a>
                             </li>
                         </ul>
                     </nav>

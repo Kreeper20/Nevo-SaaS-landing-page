@@ -1,10 +1,13 @@
 import { useState } from "react";
-import { Pricingboxes } from "./boxes/pricingboxes";
+import { PricingCard } from "../ui/PricingCard";
 
 
 export const Pricing = () => {
     const [yearly, setYearly] = useState(false);
-    const [selectedPlan, setSelectedPlan] = useState<46 | null>('32');
+    const proPrice = yearly ? "$29/mo" : "$39/mo";
+    const proDescription = yearly
+        ? "per month · billed yearly"
+        : "per month · billed monthly";
 
     return (
 
@@ -27,9 +30,10 @@ export const Pricing = () => {
 
                             <button
                                 type="button"
+
                                 onClick={() => setYearly((prev) => !prev)}
                                 aria-pressed={yearly}
-                                className="relative flex h-7  w-15 items-center rounded-full border border-zinc-700 bg-zinc-900 p-1 transition-colors"
+                                className=" relative flex h-7  w-15 items-center rounded-full border border-zinc-700 bg-zinc-900 p-1 transition-colors"
                             >
                                 <span
                                     className={` h-5 w-5 rounded-full bg-white transition-transform duration-300 ${yearly ? "translate-x-7" : "translate-x-0"}`}
@@ -44,10 +48,14 @@ export const Pricing = () => {
                         </label>
                     </div>
 
-                    <div className="mt-12 grid gap-6 md:grid-cols-2 lg:grid-cols-3">
-                    <Pricingboxes />
-                    <Pricingboxes />
-                    <Pricingboxes />
+                    <div className="mt-12 grid gap-6 items-center justify-center md:grid-cols-2 lg:grid-cols-3">
+
+
+                        <PricingCard tag="Starter" price={`$${0}`} description="Free Forever." list={["Up to 500 feedback/mo", "3 integrations", "Basic clustering"]} button="Get started free" />
+                        <div className="order-first md:order-0">
+                            <PricingCard tag="Growth" price={proPrice} description={proDescription} list={["Unlimited feedback", "All integrations", "AI clustering + summaries", "Roadmap sync"]} button="Start 7-day trial" highlighted />
+                        </div>
+                        <PricingCard tag="Enterprise" price={`Custom`} description="Talk to us" list={["Everything in Growth", "SSO & custom roles", "Custom data retention", "SLA & compliance docs", "Feature 5"]} button="Contact sales" />
                     </div>
 
                 </div>

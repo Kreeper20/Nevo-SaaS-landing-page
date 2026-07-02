@@ -1,9 +1,9 @@
-import { Worksbox } from "./boxes/Worksboxes"
+import { WorkStep } from "../ui/WorkStep"
 
 export const Works = () => {
     return (
         <>
-            <section className="mx-3 mt-16 mb-16 md:mx-20 lg:mx-32 2xl:mx-80">
+            <section id="how-it-works" className="mx-3 mt-16 mb-16 md:mx-20 lg:mx-32 2xl:mx-80">
                 <div className="grid items-start gap-12 lg:grid-cols-[minmax(0,1fr)_minmax(0,1.25fr)] lg:gap-18">
                     <div className="lg:pt-2">
                         <span className="font-tech text-xs font-semibold uppercase tracking-[0.24em] text-muted">HOW IT WORKS</span>
@@ -23,10 +23,10 @@ export const Works = () => {
                         </p>
                     </div>
 
-                    <aside className="space-y-4 lg:mt-2">
-                        <Worksbox tag={1} title="Connect your channels" description="Plug in Intercom, Zendesk, Slack, email, App Store reviews, and more. Nevo reads every message across all sources in real time." />
-                        <Worksbox tag={2} title="AI finds the patterns" description="Our model clusters feedback by theme, tracks volume trends, and scores each topic by impact - automatically, every hour." />
-                        <Worksbox tag={3} title="Ship what matters" description="Nevo pushes prioritised insights directly to Linear, Jira, or Notion. Your team always knows what to build next - and why." />
+                    <aside id="integrations" className="space-y-4 lg:mt-2">
+                        <WorkStep tag={1} title="Connect your channels" description="Plug in Intercom, Zendesk, Slack, email, App Store reviews, and more. Nevo reads every message across all sources in real time." />
+                        <WorkStep tag={2} title="AI finds the patterns" description="Our model clusters feedback by theme, tracks volume trends, and scores each topic by impact - automatically, every hour." />
+                        <WorkStep tag={3} title="Ship what matters" description="Nevo pushes prioritised insights directly to Linear, Jira, or Notion. Your team always knows what to build next - and why." />
                     </aside>
                 </div>
             </section>
