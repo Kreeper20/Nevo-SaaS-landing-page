@@ -5,7 +5,7 @@ Nevo is an AI-powered feedback intelligence platform that helps teams collect, a
 This is a front-end concept and landing page built as a portfolio project.
 
 ## Live Demo
-[View Live →]((https://nevo-saas-landing-page.vercel.app))
+[View Live →](https://nevo-saas-landing-page.vercel.app)
 
 ## Built With
 - React + TypeScript
